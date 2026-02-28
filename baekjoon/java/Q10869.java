@@ -17,6 +17,7 @@ public class Q10869 {
         int quotient = f / s;
         int remainder = f % s;
 
+        // 숫자 출력 (write는 String값으로만 출력이 가능해서 String.valueOf() 문으로 변환해주어야 한다.)
         bw.write(String.valueOf(plus));
         bw.newLine();
         bw.write(String.valueOf(minus));
